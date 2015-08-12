@@ -1,6 +1,6 @@
 {
-  "name": "doka-revolution",
-  "description": "Doka Revolution project files",
+  "name": "Cocktail",
+  "description": "Cocktail",
   "version": "1.0.0",
   "devDependencies": {
     "debowerify": "^1.3.1",
