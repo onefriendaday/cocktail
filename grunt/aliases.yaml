@@ -1,0 +1,20 @@
+default:
+    - writeVersion
+    - copy
+    - concat
+    - browserify
+    - 'compass:dev'
+    - watch
+build:
+    - writeVersion
+    - copy
+    - concat
+    - browserify
+    - 'compass:dev'
+    - uglify
+deploy:
+    - 'shell:syncDevelopmentWeb'
+    - 'shell:syncDevelopmentCms'
+deployLive:
+    - 'shell:syncLiveWeb'
+    - 'shell:syncLiveCms'

@@ -1,0 +1,7 @@
+<phpunit bootstrap="webapp/vendor/autoload.php">
+  <testsuites>
+    <testsuite name="urlmachine">
+      <file>webapp/src/Netural/Tests/UrlMachineTest.php</file>
+    </testsuite>
+  </testsuites>
+</phpunit>
