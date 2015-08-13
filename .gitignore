@@ -17,3 +17,4 @@ log.txt
 cache
 webapp/app.db
 *trados_export.xml
+!public/index.php
