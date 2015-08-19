@@ -4,6 +4,7 @@ default:
     - concat
     - browserify
     - 'compass:dev'
+    - 'php:dev'
     - watch
 build:
     - writeVersion
