@@ -5,6 +5,7 @@ default:
     - browserify
     - 'compass:dev'
     - 'php:dev'
+    - 'browserSync:dev'
     - watch
 build:
     - writeVersion

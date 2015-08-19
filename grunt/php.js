@@ -4,8 +4,8 @@ module.exports = {
             hostname: '127.0.0.1',
             port: 8080,
             router: 'public/index.php',
-            keepalive: true,
-            open: '/de/home',
+            keepalive: false,
+            open: false,
             silent: true
         }
     }
