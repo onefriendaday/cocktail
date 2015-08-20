@@ -5,6 +5,12 @@ module.exports = {
 			"cwd": "<%= paths.src.fonts %>",
 			"src": ["**/*"],
 			"dest": "<%= paths.dest.fonts %>"
+		},
+		{
+			"expand": true,
+			"cwd": "<%= paths.src.bower %>/uikit/fonts",
+			"src": ["**/*"],
+			"dest": "<%= paths.dest.fonts %>"
 		}]
 	},
 	"images": {

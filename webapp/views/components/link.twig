@@ -13,9 +13,7 @@
 		<i class="link__icon icon--before {{ tag.iconBefore }}"{% if tag.iconImage %} style="background-image:url('{{ tag.iconImage }}')"{% endif %}></i>
 	{% endif %}
 
-	{% if tag.name or tag.information %}
-		<span class="link__label"><span>{{ tag.name|raw }}{% if tag.information %} <span class="link__info">{{ tag.information }}</span>{% endif %}</span></span>
-	{% endif %}
+	{{ tag.name|raw }}
 
 	{% if tag.iconAfter %}
 		<i class="link__icon {{ tag.iconAfter }}"></i>

@@ -31,7 +31,7 @@
 											{
 												"component": "link",
 												"href": "#",
-												"iconAfter": "uk-icon-button icon-arrow",
+												"iconAfter": "uk-icon-arrow-right",
 												"name": "Mehr erfahren"
 											}
 										]
