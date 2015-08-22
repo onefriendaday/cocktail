@@ -1,5 +1,4 @@
 .DS_Store
-public/*
 config.ini
 latest-change.txt
 *-ck.js
@@ -17,4 +16,3 @@ log.txt
 cache
 webapp/app.db
 *trados_export.xml
-!public/index.php

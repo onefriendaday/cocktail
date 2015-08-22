@@ -1,18 +1,7 @@
 .section {
-	display: block;
-	background-position: 50% 0;
-	background-size: cover;
-	background-repeat: no-repeat;
+	
+}
 
-	@media (max-width: $breakpoint-small-max) {
-		font-size: 0.9em !important;
-	}
-
-	h1 {
-		margin-bottom: 0;
-	}
-
-	h1 + h2 {
-		margin-top: 0;
-	}
+.section--grey {
+	background-color: #00928F;
 }

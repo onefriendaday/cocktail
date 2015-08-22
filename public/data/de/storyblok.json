@@ -1,0 +1,78 @@
+{
+	"title" : "Home",
+	"content": {
+		"sections": [
+			{
+				"component": "section",
+				"isCentered": true,
+				"style": "section section--grey uk-contrast",
+				"body": [
+					{
+						"component": "grid",
+						"body": {
+							"column1": {
+								"component": "column",
+								"style": "uk-width-medium-1-1",
+								"body": [
+									{
+										"component": "box",
+										"isCentered": true,
+										"body": [
+											{
+												"component": "image",
+												"src": "/public/images/logo-text.svg"
+											},
+											{
+												"component": "paragraph",
+												"style": "uk-text-large uk-margin-top",
+												"text": "Ecommerce focusing on storytelling"
+											}
+										]
+									}
+								]
+							}
+						}
+					}
+				]
+			},
+			{
+				"component": "section",
+				"style": "uk-margin-large-bottom uk-margin-large-top",
+				"isCentered": true,
+				"body": [
+					{
+						"component": "facts"
+					}
+				]
+			},
+			{
+				"component": "section",
+				"isCentered": true,
+				"style": "section uk-margin-large-bottom",
+				"body": [
+					{
+						"component": "slides",
+						"images": [
+							"/public/images/orders.png",
+							"/public/images/products.png",
+							"/public/images/campaign.png"
+						]
+					}
+				]
+			},
+			{
+				"component": "section",
+				"isCentered": true,
+				"style": "section uk-margin-large-bottom",
+				"body": [
+					{
+						"component": "headline",
+						"type": "h2",
+						"text": "by Alexander Feiglstorfer",
+						"style": "uk-text-center"
+					}
+				]
+			}
+		]
+	}
+}

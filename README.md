@@ -1,4 +1,4 @@
-# Install composer packages
+## Install composer packages
 
 ```
 
@@ -11,7 +11,7 @@ composer install
 
 ```
 
-# Install PHPUnit for Testing
+## Install PHPUnit for Testing
 
 ```
 
@@ -22,7 +22,7 @@ phpunit
 
 ```
 
-# Build assets
+## Build assets
 
 ```
 
@@ -30,19 +30,18 @@ npm install && bower install
 
 ```
 
-# Dependencies
+## Dependencies
 
 ```
 
 gem install compass && gem install sass-globbing
-lftp for syncing
 
 ```
 
-# Start the server
+## Start the server
 
 ```
 
-sh serve
+grunt
 
 ```
