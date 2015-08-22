@@ -45,3 +45,14 @@ gem install compass && gem install sass-globbing
 grunt
 
 ```
+
+## Setup on heroku
+
+```
+
+heroku create
+heroku buildpacks:set https://github.com/heroku/heroku-buildpack-php
+git push heroku master
+heroku open
+
+```

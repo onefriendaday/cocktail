@@ -10,7 +10,6 @@ node_modules
 source/css/style.css
 source/js/global.js
 webapp/vendor
-composer.lock
 webapp/cache
 log.txt
 cache
